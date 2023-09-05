@@ -1,0 +1,8 @@
+github.com/anotherhadi/ansi v1.0.4 h1:3F5Pj+F569ZpGTyQhk9XAWK4ptPIdD2AnZ/WCgTcpk0=
+github.com/anotherhadi/ansi v1.0.4/go.mod h1:vDrlk40zR0HIFM85dYTB5dap0RxL/2hVeUnfjzJho2I=
+github.com/anotherhadi/getsize v1.0.0 h1:iIf6WMmecCnHgBT5mNnoW6Gxp/ZMUJYggR87MTVdj10=
+github.com/anotherhadi/getsize v1.0.0/go.mod h1:Rqp9UEUdRxFV8CBI1lU3IpUpfmWQ2CdFO/SKrqWepJA=
+golang.org/x/sys v0.12.0 h1:CM0HF96J0hcLAwsHPJZjfdNzs0gftsLfgKt57wWHJ0o=
+golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/term v0.12.0 h1:/ZfYdc3zq+q02Rv9vGqTeSItdzZTSNDmfTi0mBAuidU=
+golang.org/x/term v0.12.0/go.mod h1:owVbMEjm3cBLCHdkQu9b1opXd4ETQWc3BhuQGKgXgvU=
