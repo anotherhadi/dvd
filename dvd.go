@@ -3,8 +3,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/anotherhadi/ansi"
-	"github.com/anotherhadi/getsize"
+	"github.com/anotherhadi/gml-ui/ansi"
+	"github.com/anotherhadi/gml-ui/getsize"
 	"math/rand"
 	"os"
 	"os/signal"
@@ -24,7 +24,7 @@ func printLogo(logo []string, x, y int, color uint8) {
 func cleanup() {
 	ansi.ClearScreen()
 	ansi.CursorVisible()
-	ansi.ScreenRestore()
+	ansi.DisableAlternativeBuffer()
 	ansi.CursorRestore()
 }
 
@@ -70,7 +70,7 @@ func main() {
 	var direction string = "ur"
 
 	ansi.CursorSave()
-	ansi.ScreenSave()
+	ansi.EnableAlternativeBuffer()
 	ansi.ClearScreen()
 	ansi.CursorInvisible()
 	for {
